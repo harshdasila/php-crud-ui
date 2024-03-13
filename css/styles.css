@@ -1,0 +1,127 @@
+.registration-form {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.registration-form > input {
+    margin-bottom: 30px;
+}
+.registration-form > p {
+    font-size: 14px;
+    color: red;
+    margin-top: -24px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #007bff;
+}
+
+.user-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 25px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 100px; /* Adjust the width of the first column */
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 200px; /* Adjust the width of the second column */
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 250px; /* Adjust the width of the third column */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 150px; /* Adjust the width of the fourth column */
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 100px; /* Adjust the width of the fifth column */
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.update-button{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+}
+.delete-button{
+    padding: 5px;
+    /* background-color: red; */
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+    /* font-weight: 600; */
+    
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination-button{
+    color: black;
+    padding: 10px;
+}
+  
